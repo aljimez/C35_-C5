@@ -7,9 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'proyC35_C5';
-  nombre = 'Alejandro';
-  cif = '43720';
-  group = '2';
-  email = 'aajja@gmail.com';
-  direccion = 'Detras tuya';
+nombre = "";
+cif = "";
+direccion = "";
 }

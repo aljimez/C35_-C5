@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./clientlist.component.css']
 })
 export class ClientlistComponent {
-  @Input() formValues!: any[];
+  @Input() formClients!: any[];
   nuevoNombre: string = '';
   nuevoCIF: string = '';
   nuevaDireccion: string = '';

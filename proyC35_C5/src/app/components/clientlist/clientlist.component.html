@@ -1,0 +1,25 @@
+<div class="table-responsive">
+  <h2 style="text-align: center">Listado clientes</h2>
+
+  <div>
+    <table class="table">
+
+      <tbody>
+        <tr *ngFor="let value of formValues; let i = index">
+          <th scope="row">{{ i + 1 }}</th>
+          <td>{{ value.nombre }}</td>
+          <td>{{ value.cif }}</td>
+          <td>{{ value.direccion }}</td>
+          <td>{{ value.grupo }}</td>
+        </tr>
+        <tr>
+          <th scope="row">{{ formValues.length + 1 }}</th>
+          <td><div class="border-0">{{ nuevoNombre }}</div></td>
+          <td><div class="border-0">{{ nuevoCIF }}</div></td>
+          <td><div class="border-0">{{ nuevaDireccion }}</div></td>
+          <td><div class="border-0">{{ nuevoGrupo }}</div></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

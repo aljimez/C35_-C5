@@ -1,0 +1,43 @@
+
+{{nombre}}
+<div class="container p-5">
+	<h1>Alta cliente</h1>
+	<form >
+		<div class="row mt-5">
+			<div class="col-3">
+				<label for="exampleInputName" class="form-label" >Nombre:</label>
+			</div>
+			<div class="col-3">
+				<input type="text" class="form-control" id="exampleInputName"  >
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-3">
+				<label for="exampleInputName" class="form-label">CIF:</label>
+			</div>
+
+			<div class="col-3">
+				<input type="number" class="form-control" id="exampleInputEmail1"  >
+			</div>
+		</div>
+
+		<div class="row mt-5">
+			<div class="col-3">
+				<label for="exampleInputName" class="form-label">Dirección:</label>
+			</div>
+			<div class="col-3">
+				<input type="email" class="form-control" id="exampleInputEmail1" >
+			</div>
+		</div>
+
+		<div class="row mt-5">
+			<div class="col-3">
+				<label for="exampleInputName" class="form-label">Grupo:</label>
+			</div>
+			<div class="col-3">
+			  	<input type="number" class="form-control" id="exampleInputEmail1"  for="typeNumber" placeholder="Sin definir" >
+			</div>
+		</div>
+		<button type="submit" class="btn btn-primary mt-4" (click)="OnSubmit()">Guardar</button>
+	</form>
+</div>
